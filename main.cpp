@@ -15,8 +15,8 @@ int main() {
         cout << "Enter your choice: ";
         cin >> choice;
 
-        
         switch (choice) {
+
             case 1:
                 cout << "Enter data to insert at the beginning: ";
                 cin >> data;
@@ -58,7 +58,9 @@ int main() {
             default:
                 cout << "Invalid choice. Try again.\n";
         }
+
     }
 
-    return 0;
+return 0;
+
 }
