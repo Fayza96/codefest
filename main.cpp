@@ -4,9 +4,9 @@ int main() {
 
     while (true) {
         cout << "\nMenu:\n";
-        cout << "1. Insert  data at the beginning\n";
-        cout << "2. Insert  data at the end\n";
-        cout << "3. Insert data at a specific position\n";
+        cout << "1. Insert at the beginning\n";
+        cout << "2. Insert at the end\n";
+        cout << "3. Insert at a specific position\n";
         cout << "4. Delete from the beginning\n";
         cout << "5. Delete from the end\n";
         cout << "6. Delete from a specific position\n";
