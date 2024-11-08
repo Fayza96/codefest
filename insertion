@@ -10,8 +10,7 @@
             head = newNode;
         }
     }
-
-    // Insert at the end
+// Insert at the end
     void insertAtEnd(int data) {
         Node* newNode = new Node(data);
         if (!tail) {
