@@ -2,6 +2,7 @@ int main() {
     DoublyLinkedList list;
     int choice, data, pos;
 
+   
     while (true) {
         cout << "\nMenu:\n";
         cout << "1. Insert at the beginning\n";
@@ -15,6 +16,7 @@ int main() {
         cout << "Enter your choice: ";
         cin >> choice;
 
+        
         switch (choice) {
             case 1:
                 cout << "Enter data to insert at the beginning: ";
